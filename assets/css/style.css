@@ -1,4 +1,15 @@
 @charset "UTF-8";
+.blue {
+  border: 1px solid black;
+  background-color: aqua;
+  width: 200px;
+  padding: 10px;
+}
+
+.hide {
+  display: none;
+}
+
 /*=== import bootstrap ===*/
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
