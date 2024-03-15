@@ -13,4 +13,8 @@ $(document).ready(function () {
         $("ul").append('<li>' + a + '<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>')
         test();
     });
+
+    $(".clear").click(function (){
+        $(this).prev().empty();
+    });
 });

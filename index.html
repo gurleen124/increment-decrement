@@ -10,18 +10,23 @@
 </head>
 
 <body>
-    <main>
+    <main class="row justify-content-center">
         <h1 class="d-flex justify-content-center">To do list</h1>
-        <div class="py-5 w-25 input-group">
-            <input type="text" id="input-value" class="form-control form-control-lg" placeholder=""
-                aria-label="Example text with button addon" aria-describedby="button-addon1">
-            <button type="button" id="addToList" class="btn btn-primary">Add to List</button>
+        <div class="col-lg-6">
+            <div class="py-5 input-group">
+                <input type="text" id="input-value" class="form-control form-control-lg" placeholder=""
+                    aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <button type="button" id="addToList" class="btn btn-primary">Add to List</button>
+            </div>
+            <div class="d-grid justify-content-center">
+                <ul>
+                    <li>Buy Veggies<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>
+                    <li>Go to gym<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>
+                    <li>Make Project<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>
+                </ul>
+                <button type="button" class="clear btn btn-danger">Clear All</button>
+            </div>
         </div>
-        <ul>
-            <li>Buy Veggies<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>
-            <li>Go to gym<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>
-            <li>Make Project<button type="button" class="btn-close ms-4" aria-label="Close"></button></li>
-        </ul>
     </main>
     <!-- jquery file -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
